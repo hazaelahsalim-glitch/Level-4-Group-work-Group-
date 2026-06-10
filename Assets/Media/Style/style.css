@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.hamburger-icon{
+    display: none;
+}
+
+header{
+    position:fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display:flex;
+    flex-wrap : wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.nav{
+    display: flex;   
+}
+
+.nav a{
+    padding: 8px 16px;
+    text-decoration: none;
+    color:rgb(0, 177, 88);
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.cta-btn button{
+    padding: 8px 16px;
+    background-color:rgb(0, 177, 88);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.hero-section{
+    height: 400px;
+    background-image: url('../Media/modern-country-houses-construction.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.hero-section h1{
+    font-size: 48px;
+    
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content button{
+    padding: 10px 20px;
+    background-color:rgba(0, 177, 88, 0.8);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.about-section{
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.about-section h2{
+    text-align: center;
+    font-size: 36px;
+}
+
+.about-content{
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+.video-card{
+    max-width: 500px ;
+}
+
+.video-card video{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.info{
+    max-width: 500px;
+    padding: 20px;
+}
+
+.info button{
+    padding: 10px 20px;
+    background-color:rgb(0, 177, 88);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.service-section{
+    padding: 40px;
+}
+
+.service-section h2{
+    text-align: center;
+    font-size: 36px;
+}
+
+.service-cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.service-card{
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    border-left: 4px solid rgb(0, 177, 88);
+}   
+
+.Hostels h2{
+    text-align: center;
+}
+
+.Hostels-cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+   
+}
+
+
+.Hostels-card{
+     max-width: 300px;
+
+}
+
+.Hostels-card img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.Hostels-card button{
+    padding: 10px 20px;
+    background-color:rgb(0, 177, 88);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact-details{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.contact-section{
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+
+.contact-section h2{
+    text-align: center;
+    font-size: 36px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+.contact-form input,
+.contact-form textarea{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button{
+    padding: 10px 20px;
+    background-color:rgb(0, 177, 88);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
